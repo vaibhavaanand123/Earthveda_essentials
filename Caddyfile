@@ -1,0 +1,7 @@
+earthvedaessentials.de {
+  encode zstd gzip
+  reverse_proxy app:8787
+}
+www.earthvedaessentials.de {
+  redir https://earthvedaessentials.de{uri} permanent
+}

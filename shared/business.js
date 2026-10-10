@@ -1,0 +1,51 @@
+/** Runtime legal details come from the authenticated settings editor. Never invent seller identities. */
+export const BUSINESS = {
+  brand: 'Earthveda Essentials',
+  legalName: '',
+  address: { DE: '', GB: '' },
+  email: '',
+  phoneDisplay: '',
+  vatId: '',
+  register: '',
+  managingDirector: '',
+  instagram: 'https://www.instagram.com/earthvedaessentials.de/',
+  supportHours: '',
+};
+export const DEFAULT_SETTINGS = {
+  legalName: '',
+  address: '',
+  email: '',
+  phone: '',
+  representative: '',
+  register: '',
+  vatId: '',
+  returnAddress: '',
+  foodOperator: '',
+  privacyContact: '',
+  supervisoryAuthority: '',
+  retentionPolicy: '',
+  processors: '',
+  transferSafeguards: '',
+  disputeResolution: '',
+  accessibilityStatement: '',
+  story: { de: '', en: '' },
+  policies: {
+    de: { terms: '', privacy: '', withdrawal: '', shipping: '' },
+    en: { terms: '', privacy: '', withdrawal: '', shipping: '' },
+  },
+  shipping: {
+    DE: [
+      { id: 'standard', label: 'Standard', fee: 499 },
+      { id: 'express', label: 'Express', fee: 799 },
+    ],
+    GB: [
+      { id: 'standard', label: 'Standard', fee: 999 },
+      { id: 'express', label: 'Express', fee: 1199 },
+    ],
+  },
+  legalApproved: false,
+  shippingApproved: false,
+  ukApproved: false,
+  ukDeliveryMode: '',
+  policyVersion: '2026-10-10',
+};

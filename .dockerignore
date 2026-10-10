@@ -1,0 +1,11 @@
+node_modules
+dist
+data
+.env
+*.log
+design/packs/svg
+backups
+
+.env.*
+.git
+backups

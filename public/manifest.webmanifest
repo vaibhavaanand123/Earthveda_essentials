@@ -1,0 +1,10 @@
+{
+  "name": "Earthveda Essentials",
+  "short_name": "Earthveda",
+  "description": "Roasted chickpeas, makhana and plant protein.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef1ea",
+  "theme_color": "#12372a",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
